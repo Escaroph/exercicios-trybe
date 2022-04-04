@@ -1,25 +1,46 @@
-div:hover {
-    border: 5px solid black;
+ol {
+    background-color: yellow;
 }
-#primaria {
-    border-color: black;
+.par {
+    color: green;
 }
-#secundaria {
-    border-color: red;
+.impar {
+    text-transform: uppercase;
 }
-#complementar {
-    border-color: aqua;
-    padding: 10px 500px 10px 1px;
+.vermelha {
+    color: red;
 }
-#escura {
-    border-color: brown;
+.italico {
+    font-size: 40px;
+    border: 1px solid black;
 }
-#clara {
-    border-color: yellow;
+li {
+    font-size: 20px;
+    }
+li em {
+    font-weight: bold;
 }
-h3 {
-    font-family: sans-serif;
+.primeiras {
+    color: blue;
 }
-#primaria, #complementar, #clara {
-    font-style: italic;
+.java {
+    background-color: pink;
+}
+a:hover {
+    font-weight: bold;
+}
+.Stack:hover {
+    color: orange;
+}
+.W3:hover {
+    color: green;
+}
+.MDN:hover {
+    color: black;
+}
+.Dev:hover {
+    color: yellow;
+}
+.Trybe:hover {
+    color: green;
 }
