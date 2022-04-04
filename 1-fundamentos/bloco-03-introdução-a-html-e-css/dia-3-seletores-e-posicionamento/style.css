@@ -1,12 +1,25 @@
-h1, p {
-    text-align: center;
+div:hover {
+    border: 5px solid black;
 }
-li:hover {
-    background-color: red;
+#primaria {
+    border-color: black;
 }
-li:active {
-    font-family: monospace;
+#secundaria {
+    border-color: red;
 }
-ul, ol {
-    list-style: none;
+#complementar {
+    border-color: aqua;
+    padding: 10px 500px 10px 1px;
+}
+#escura {
+    border-color: brown;
+}
+#clara {
+    border-color: yellow;
+}
+h3 {
+    font-family: sans-serif;
+}
+#primaria, #complementar, #clara {
+    font-style: italic;
 }
